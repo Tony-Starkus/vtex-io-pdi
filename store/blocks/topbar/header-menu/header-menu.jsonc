@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#header-menu-container": {
+    "children": ["flex-layout.col#header-menu-items"]
+    // "props": {
+    //   "fullWidth": true
+    // }
+  },
+
+  "flex-layout.col#header-menu-items": {
+    "children": ["link#menu-item-home", "link#menu-item-1", "link#menu-item-2", "link#menu-item-3"],
+    "props": {
+      "blockClass": ["header-menu-items"]
+    }
+  },
+
+
+  "link#menu-item-home": {
+    "props": {
+      "label": "Home",
+      "href": "/",
+      "blockClass": ["header-menu-item__link"]
+    }
+  },
+  "link#menu-item-1": {
+    "props": {
+      "label": "Hot Deals",
+      "href": "#",
+      "blockClass": ["header-menu-item__link"]
+    }
+  },
+  "link#menu-item-2": {
+    "props": {
+      "label": "Categorias",
+      "href": "#",
+      "blockClass": ["header-menu-item__link"]
+    }
+  },
+  "link#menu-item-3": {
+    "props": {
+      "label": "Laptops",
+      "href": "#",
+      "blockClass": ["header-menu-item__link"]
+    }
+  },
+  "link#menu-item-4": {
+    "props": {
+      "label": "Smartphones",
+      "href": "#",
+      "blockClass": ["header-menu-item__link"]
+    }
+  },
+  "link#menu-item-5": {
+    "props": {
+      "label": "Cameras",
+      "href": "#",
+      "blockClass": ["header-menu-item__link"]
+    }
+  },
+  "link#menu-item-6": {
+    "props": {
+      "label": "Acessórios",
+      "href": "#",
+      "blockClass": ["header-menu-item__link"]
+    }
+  }
+}

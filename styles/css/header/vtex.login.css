@@ -1,0 +1,9 @@
+.label {
+  display: block;
+  color: #FFF;
+}
+
+.profileIcon--login-container {
+  position: absolute;
+  color: #D10024;
+}

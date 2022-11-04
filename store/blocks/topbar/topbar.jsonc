@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#topbar": {
+    "children": ["flex-layout.col#contact", "flex-layout.col#actions"],
+    "props": {
+      "blockClass": ["topbar__container"],
+      "fullWidth": true
+    }
+  },
+  
+  "flex-layout.col#contact": {
+    "children": ["rich-text#contact-phone", "rich-text#contact-email", "rich-text#contact-address"],
+    "props": {
+      "blockClass": ["topbar-contact__col"]
+    }
+  },
+  "rich-text#contact-phone": {
+    "props": {
+      "text": "+021-95-51-84",
+      "blockClass": ["topbar-contact--rich-text", "topbar-contact--rich-text__phone"]
+    }
+  },
+  "rich-text#contact-email": {
+    "props": {
+      "text": "email@email.com",
+      "blockClass": ["topbar-contact--rich-text", "topbar-contact--rich-text__email"]
+    }
+  },
+  "rich-text#contact-address": {
+    "props": {
+      "text": "1734 Stonecoal Road",
+      "blockClass": ["topbar-contact--rich-text", "topbar-contact--rich-text__address"]
+    }
+  },
+
+  "flex-layout.col#actions": {
+    "children": ["login"],
+    "props": {
+      "blockClass": ["topbar-actions__col"]
+    }
+  }
+}

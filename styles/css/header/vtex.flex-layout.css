@@ -1,0 +1,33 @@
+.flexRow--topbar__container {
+  background-color: #1e1f29;
+}
+
+.flexCol--header-menu-items {
+  gap: 0.938rem;
+  padding: 0rem 0.938rem
+}
+
+.flexColChild--topbar-contact__col {
+  display: flex;
+  align-items: center;
+}
+
+.flexCol--topbar-contact__col {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.938rem;
+}
+
+@media (min-width: 1024px) {
+  /* LAPTOP */
+  .flexCol--header-menu-items {
+    flex-direction: row;
+    gap: 1.875rem;
+    border-top: 3px solid #d10024;
+    border-bottom: 1px solid #e4e7ed;
+  }
+
+  .flexColChild--header-menu-items {
+    padding: 1.25rem 0rem;
+  }
+}

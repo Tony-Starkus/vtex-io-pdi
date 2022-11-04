@@ -14,6 +14,13 @@
     "blocks": ["login-content#default"]
   },
 
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "blockClass": ["login-container"]
+    }
+  },
+
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,

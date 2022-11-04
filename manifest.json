@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "minimumtheme",
+  "vendor": "codeby",
+  "name": "thalisson-theme-pdi",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
@@ -41,6 +41,7 @@
     "vtex.tab-layout": "0.x",
     "vtex.responsive-layout": "0.x",
     "vtex.slider-layout": "0.x",
+    "vtex.store-link": "0.x",
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",

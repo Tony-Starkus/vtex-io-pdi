@@ -1,0 +1,11 @@
+.link--header-menu-item__link {
+  text-decoration: none;
+  color: #2b2d42;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+}
+
+.link--header-menu-item__link:hover {
+  color: #d10024;
+  border-bottom: 2px solid #d10024;
+}
