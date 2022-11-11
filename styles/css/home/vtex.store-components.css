@@ -1,0 +1,62 @@
+.infoCardContainer--home-info-card-collections-item {
+  background-color: #E4E7ED;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all .2s;
+  padding: 2rem 0rem;
+}
+
+.infoCardContainer--home-info-card-collections-item:hover {
+  background-size: 110% !important;
+}
+
+.infoCardTextContainer--home-info-card-collections-item::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -110px;
+    width: 85%;
+    background: #D10024;
+    opacity: 0.9;
+    -webkit-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+
+.infoCardHeadline--home-info-card-collections-item {
+  z-index: 1;
+  color: #FFF;
+  font-size: 1.5rem;
+  word-spacing: 100vw;
+  margin: 1.5rem auto 0 auto;
+}
+
+.infoCardCallActionContainer--home-info-card-collections-item {
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+.infoCardCallActionContainer--home-info-card-collections-item :global(.vtex-button) {
+  background-color: initial;
+  border: none;
+}
+
+.infoCardCallActionContainer--home-info-card-collections-item :global(.vtex-button__label) {
+  background-color: initial;
+  border: none;
+  padding-left: 0rem;
+}
+
+.infoCardCallActionContainer--home-info-card-collections-item :global(.vtex-button__label)::after {
+  content: "";
+  background-image: url("data:image/svg+xml;utf8,<svg class='vtex__icon-arrow-up' width='14' height='13.18' viewBox='0 0 17 16' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' fill='none'><path d='M8.39162 16C8.78498 16 9.04721 15.8667 9.30945 15.6L16.7832 8L14.9476 6.13333L9.70281 11.4667V0H7.08043V11.4667L1.83567 6.13333L3.12612e-08 8L7.47379 15.6C7.73602 15.8667 7.99826 16 8.39162 16Z' transform='translate(16.7832 16) rotate(-180)' fill='white'></path></svg>");
+  width: 0.875rem;
+  height: 0.824rem;
+  transform: rotate(90deg);
+  margin-left: .5rem;
+}

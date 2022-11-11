@@ -1,0 +1,58 @@
+{
+  "tab-layout#home-tab-layout": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "laptops"
+    }
+  },
+
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#laptops",
+      "tab-list.item#smartphones"
+    ]
+  },
+  "tab-list.item#laptops": {
+    "props": {
+      "tabId": "laptops",
+      "label": "Laptops",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#smartphones": {
+    "props": {
+      "tabId": "smartphones",
+      "label": "Smartphones"
+    }
+  },
+
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#laptops",
+      "tab-content.item#smartphones"
+    ]
+  },
+  "tab-content.item#laptops": {
+    "children": [
+      "flex-layout.col#container-search-result"
+    ],
+    "props": {
+      "tabId": "laptops"
+    }
+  },
+  "tab-content.item#smartphones": {
+    "children": [
+      "flex-layout.col#container-search-result"
+    ],
+    "props": {
+      "tabId": "smartphones"
+    }
+  },
+  "flex-layout.col#container-search-result": {
+    "children": ["search-result-layout.customQuery#home-tab-layout-search-result"]
+  }
+}

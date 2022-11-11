@@ -1,0 +1,43 @@
+{
+  "flex-layout.col#footer-about-us": {
+    "children": [
+      "rich-text#footer-about-us-title",
+      "rich-text#footer-about-us-info",
+      "rich-text#footer-contact-phone",
+      "rich-text#footer-contact-email",
+      "rich-text#footer-contact-address"
+    ],
+    "props": {
+      "blockClass": ["footer-about-us"]
+    }
+  },
+  "rich-text#footer-about-us-title": {
+    "props": {
+      "text": "ABOUT US",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#footer-about-us-info": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+    }
+  },
+  "rich-text#footer-contact-phone": {
+    "props": {
+      "text": "+021-95-51-84",
+      "blockClass": ["contact--rich-text", "footer-contact--rich-text", "contact--rich-text__phone"]
+    }
+  },
+  "rich-text#footer-contact-email": {
+    "props": {
+      "text": "email@email.com",
+      "blockClass": ["contact--rich-text", "footer-contact--rich-text", "contact--rich-text__email"]
+    }
+  },
+  "rich-text#footer-contact-address": {
+    "props": {
+      "text": "1734 Stonecoal Road",
+      "blockClass": ["contact--rich-text", "footer-contact--rich-text", "contact--rich-text__address"]
+    }
+  }
+}

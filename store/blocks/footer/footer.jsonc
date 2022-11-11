@@ -5,7 +5,10 @@
   "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer"
-    ]
+    ],
+    "props": {
+      "blockClass": ["footer-section"]
+    }
   },
   "footer-layout.mobile": { 
     "children": [
@@ -14,6 +17,7 @@
   },
   "flex-layout.row#footer": { 
     "children": [
+      "flex-layout.col#footer-about-us",
       "image"
     ]
   },

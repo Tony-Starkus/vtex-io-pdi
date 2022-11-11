@@ -1,0 +1,102 @@
+{
+  "store.custom#category": {
+    "children": [
+      "search-result-layout.customQuery#home-tab-layout-search-result"
+    ]
+  },
+  "search-result-layout.customQuery#home-tab-layout-search-result": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": true,
+        "queryField": "198",
+        "mapField": "productClusterIds",
+        "maxItemsPerPage": 9
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#collection",
+      "search-result-layout.mobile#collection"
+    ]
+  },
+  "search-result-layout.desktop#collection": {
+    "children": [
+      "flex-layout.row#result-collection",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more"
+    }
+  },
+  "flex-layout.row#result-collection": {
+    "children": [
+      "flex-layout.col#content-collection"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#content-collection": {
+    "children": [
+      "flex-layout.row#products-collection"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#products-collection": {
+    "children": [
+      "search-content#collection"
+    ]
+  },
+  "search-content#collection": {
+    "blocks": [
+      "gallery#collection",
+      "not-found"
+    ]
+  },
+  "search-result-layout.mobile#collection": {
+    "children": [
+      "flex-layout.row#contentmobile-collection",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#contentmobile-collection": {
+    "children": [
+      "search-content#collection"
+    ],
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "gallery#collection": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 2
+          }
+        }
+      ],
+      "ListSummary": "product-summary.shelf",
+      "GridSummary": "product-summary.shelf"
+    }
+  }
+}

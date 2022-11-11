@@ -1,7 +1,9 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "flex-layout.row#home-info-card-colletions-container",
+      "tab-layout#home-tab-layout"
     ]
   },
   "rich-text": { 

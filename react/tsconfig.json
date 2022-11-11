@@ -1,0 +1,26 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "jsx": "react",
+    "noEmitOnError": false,
+    "lib": [
+      "dom"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node",
+      "jest",
+      "graphql"
+    ],
+    "strict": false
+  },
+  "include": [
+    "./typings/.d.ts",
+    "./**/.tsx",
+    "./*/.ts",
+    "components/eventGlobal/getCookie.js", "components/eventGlobal/getCookie.js", "eventGlobal.js", "components/eventGlobal/index.js"  ]
+}

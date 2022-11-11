@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#home-info-card-colletions-container": {
+    "children": ["flex-layout.col#home-info-card-colletions-container-col1", "flex-layout.col#home-info-card-colletions-container-col2", "flex-layout.col#home-info-card-colletions-container-col3"],
+    "props": {
+      "blockClass": ["home-info-card-colletions-container"],
+      "colGap": 5,
+      "rowGap": 5
+    }
+  },
+  "flex-layout.col#home-info-card-colletions-container-col1": {
+    "children": ["info-card#home-info-card-collections-col1-item"]
+  },
+  "flex-layout.col#home-info-card-colletions-container-col2": {
+    "children": ["info-card#home-info-card-collections-col2-item"]
+  },
+  "flex-layout.col#home-info-card-colletions-container-col3": {
+    "children": ["info-card#home-info-card-collections-col3-item"]
+  },
+  "info-card#home-info-card-collections-col1-item": {
+    "props": {
+      "blockClass": "home-info-card-collections-item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://preview.colorlib.com/theme/electro/img/shop01.png.webp",
+      "headline": "Laptop Collection",
+      "callToActionText": "SHOP NOW",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home-info-card-collections-col2-item": {
+    "props": {
+      "blockClass": "home-info-card-collections-item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://preview.colorlib.com/theme/electro/img/shop03.png.webp",
+      "headline": "Accessories Collection",
+      "callToActionText": "SHOP NOW",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home-info-card-collections-col3-item": {
+    "props": {
+      "blockClass": "home-info-card-collections-item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://preview.colorlib.com/theme/electro/img/shop02.png.webp",
+      "headline": "Cameras Collection",
+      "callToActionText": "SHOP NOW",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  }
+}

@@ -16,19 +16,19 @@
   "rich-text#contact-phone": {
     "props": {
       "text": "+021-95-51-84",
-      "blockClass": ["topbar-contact--rich-text", "topbar-contact--rich-text__phone"]
+      "blockClass": ["contact--rich-text", "contact--rich-text__phone"]
     }
   },
   "rich-text#contact-email": {
     "props": {
       "text": "email@email.com",
-      "blockClass": ["topbar-contact--rich-text", "topbar-contact--rich-text__email"]
+      "blockClass": ["contact--rich-text", "contact--rich-text__email"]
     }
   },
   "rich-text#contact-address": {
     "props": {
       "text": "1734 Stonecoal Road",
-      "blockClass": ["topbar-contact--rich-text", "topbar-contact--rich-text__address"]
+      "blockClass": ["contact--rich-text", "contact--rich-text__address"]
     }
   },
 
