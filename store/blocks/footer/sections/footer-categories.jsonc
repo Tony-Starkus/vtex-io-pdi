@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#footer-categories": {
+    "children": [
+      "rich-text#footer-categories-title",
+      "link#footer-category-1",
+      "link#footer-category-2",
+      "link#footer-category-3",
+      "link#footer-category-4",
+      "link#footer-category-5"
+    ]
+  },
+  "rich-text#footer-categories-title": {
+    "props": {
+      "blockClass": ["footer-section-title"],
+      "text": "CATEGORIES",
+      "font": "t-heading-5"
+    }
+  },
+  "link#footer-category-1": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Hot deals"
+    }
+  },
+  "link#footer-category-2": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Laptops"
+    }
+  },
+  "link#footer-category-3": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Smartphones"
+    }
+  },
+  "link#footer-category-4": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Cameras"
+    }
+  },
+  "link#footer-category-5": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Accessories"
+    }
+  }
+}

@@ -1,3 +1,26 @@
 .flexColChild--footer-about-us {
   color: #B9BABC !important;
 }
+
+.flexRowContent--footer-copyright-container {
+  background-color: #1E1F29;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.flexRow--footer-copyright-container :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+}
+
+@media (min-width: 640px) {
+  .flexCol--footer-copyright-cards-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .flexRowContent--footer-copyright-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

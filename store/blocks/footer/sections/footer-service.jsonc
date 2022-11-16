@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#footer-service": {
+    "children": [
+      "rich-text#footer-service-title",
+      "link#footer-service-my-account",
+      "link#footer-service-view-cart",
+      "link#footer-service-wishlist",
+      "link#footer-service-track-my-order",
+      "link#footer-service-help"
+    ]
+  },
+  "rich-text#footer-service-title": {
+    "props": {
+      "blockClass": ["footer-section-title"],
+      "text": "SERVICE",
+      "font": "t-heading-5"
+    }
+  },
+  "link#footer-service-my-account": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "My Account"
+    }
+  },
+  "link#footer-service-view-cart": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "View Cart"
+    }
+  },
+  "link#footer-service-wishlist": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Wishlist"
+    }
+  },
+  "link#footer-service-track-my-order": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Track My Order"
+    }
+  },
+  "link#footer-service-help": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Help"
+    }
+  }
+}

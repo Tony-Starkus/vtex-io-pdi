@@ -4,7 +4,8 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "flex-layout.row#footer-copyright"
     ],
     "props": {
       "blockClass": ["footer-section"]
@@ -12,12 +13,19 @@
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
-    ]
+      "flex-layout.row#footer",
+      "flex-layout.row#footer-copyright"
+    ],
+    "props": {
+      "blockClass": ["footer-section"]
+    }
   },
   "flex-layout.row#footer": { 
     "children": [
       "flex-layout.col#footer-about-us",
+      "flex-layout.col#footer-categories",
+      "flex-layout.col#footer-information",
+      "flex-layout.col#footer-service",
       "image"
     ]
   },

@@ -1,0 +1,54 @@
+{
+  "flex-layout.col#footer-information": {
+    "children": [
+      "rich-text#footer-information-title",
+      "link#footer-information-about-us",
+      "link#footer-information-contact-us",
+      "link#footer-information-privacy-policy",
+      "link#footer-information-orders-and-returns",
+      "link#footer-information-terms-and-conditions"
+    ]
+  },
+  "rich-text#footer-information-title": {
+    "props": {
+      "blockClass": ["footer-section-title"],
+      "text": "INFORMATION",
+      "font": "t-heading-5"
+    }
+  },
+  "link#footer-information-about-us": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "About Us"
+    }
+  },
+  "link#footer-information-contact-us": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Contact Us"
+    }
+  },
+  "link#footer-information-privacy-policy": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Privacy Policy"
+    }
+  },
+  "link#footer-information-orders-and-returns": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Orders and Returns"
+    }
+  },
+  "link#footer-information-terms-and-conditions": {
+    "props": {
+      "blockClass": ["footer-link"],
+      "href": "#",
+      "label": "Terms & Conditions"
+    }
+  }
+}

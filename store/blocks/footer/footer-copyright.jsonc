@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#footer-copyright": {
+    "children": ["flex-layout.col#footer-copyright-cards", "flex-layout.col#footer-copyright-text-info-1"],
+    "props": {
+      "blockClass": ["footer-copyright-container"]
+    }
+  },
+  "flex-layout.col#footer-copyright-cards": {
+    "children": [
+      "image#footer-card-1",
+      "image#footer-card-2",
+      "image#footer-card-3",
+      "image#footer-card-4",
+      "image#footer-card-5",
+      "image#footer-card-6"
+    ],
+    "props": {
+      "blockClass": ["footer-copyright-cards-container"],
+      "colGap": 1,
+      "rowGap": 1
+    }
+  },
+  "image#footer-card-1": {
+    "props": {
+      "blockClass": ["footer-copyright-card-image"],
+      "src": "https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/credit-card-payment-icon.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-card-2": {
+    "props": {
+      "blockClass": ["footer-copyright-card-image"],
+      "src": "https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/credit-card-payment-icon.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-card-3": {
+    "props": {
+      "blockClass": ["footer-copyright-card-image"],
+      "src": "https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/credit-card-payment-icon.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-card-4": {
+    "props": {
+      "blockClass": ["footer-copyright-card-image"],
+      "src": "https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/credit-card-payment-icon.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-card-5": {
+    "props": {
+      "blockClass": ["footer-copyright-card-image"],
+      "src": "https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/credit-card-payment-icon.png",
+      "maxHeight": 24
+    }
+  },
+  "image#footer-card-6": {
+    "props": {
+      "blockClass": ["footer-copyright-card-image"],
+      "src": "https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/credit-card-payment-icon.png",
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.col#footer-copyright-text-info-1": {
+    "children": ["rich-text#text-info-1"]
+  },
+  "rich-text#text-info-1": {
+    "props": {
+      "blockClass": ["footer-copyright-text-info-1"],
+      "text": "Copyright ©2022 All rights reserved | This template is made with by Colorlib",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

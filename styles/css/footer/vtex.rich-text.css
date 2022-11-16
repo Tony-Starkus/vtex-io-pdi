@@ -1,3 +1,19 @@
 .paragraph--footer-contact--rich-text, .link--footer-contact--rich-text {
   color: #B9BABC !important;
+  margin-top: 15px !important;
+}
+
+.wrapper--footer-section-title {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.paragraph--footer-about-us-info {
+  color: #B9BABC;
+  margin: 0rem;
+  width: 24ch;
+}
+
+.wrapper--footer-copyright-text-info-1 {
+  color: #B9BABC;
 }

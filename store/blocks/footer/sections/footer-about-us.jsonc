@@ -13,12 +13,14 @@
   },
   "rich-text#footer-about-us-title": {
     "props": {
+      "blockClass": ["footer-section-title"],
       "text": "ABOUT US",
       "font": "t-heading-5"
     }
   },
   "rich-text#footer-about-us-info": {
     "props": {
+      "blockClass": ["footer-about-us-info"],
       "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
     }
   },
